@@ -1,9 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Noto+Sans&display=swap');
+
 * {
 	padding: 0;
 	margin:0;
 	box-sizing: border-box;
+	
      
 }
 body{
@@ -216,6 +218,7 @@ background-image: linear-gradient(to right, #a8ff78, #78ffd6);
 border-radius: 20px;
 text-align: center;
 margin-top: 10px;
+
 
 }
 .feedback-title,input[type="text"]{
