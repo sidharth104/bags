@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Noto+Sans&display=swap');
+* {
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+     
+}
+body{
+	overflow-x: hidden;
+}
+.wrapper
+{
+	background:url(https://images.pexels.com/photos/346746/pexels-photo-346746.jpeg?cs=srgb&dl=pexels-porapak-apichodilok-346746.jpg&fm=jpg) no-repeat ;
+	background-size: cover;
+	height: 100vh;
+	border-radius: 30PX;
+		box-shadow: 10px 0px 20px rgba(89,83,9,0.6);	
+
+}
+.navbar
+{
+	height: 80px;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	border-radius: 30PX;
+}
+.logo
+{
+
+margin-left: 2%;
+border-radius:50%;
+}
+ ul
+{
+	float: right;
+	margin-right: 20px;
+
+}
+ li
+{
+	display: inline-block;
+	margin:0 8px;
+	
+	line-height: 80px;
+}
+ a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 6px 13px;
+	font-family: 'roboto',sans-serif;
+	text-transform: uppercase;
+
+}
+li a.active
+{
+background:red;	
+border-radius: 2px;
+}
+li 	:hover
+{
+	background:red;
+	border-radius: 2px;
+	transition-duration: .5s;
+	border-radius: 15px;
+	font-size: 30px;
+}
+.contacts
+{
+	margin-top: 10px;
+	display: grid;
+	height: 50vh;
+	grid-template-columns: 1fr  1fr;
+    color: white;
+    grid-gap: 10px;
+
+
+	}
+.contact1
+	{
+	  background-image: linear-gradient(to right, #a8ff78, #78ffd6);
+	height: 50vh;
+	border-radius: 20px;
+	box-shadow: 10px 0px 20px rgba(89,83,9,0.6);
+
+}
+.contact1  img
+{
+	margin-top: 40px;
+	margin-left: 45%;
+    border-radius: 30px;
+}
+.contact1  h2
+{
+	margin-top: 20px;
+	margin-left: 30%;
+	font-family: Comic Sans MS;
+	size: 20PX;
+
+}
+.contact1  h1
+{
+	margin-top: 20px;
+	margin-left: 35%;
+	font-family: 'JetBrains Mono', monospace;
+	size: 20PX;
+
+}
+
+.contact2	
+	{
+	background-image: linear-gradient(to left, rgba(83, 105, 118), rgba(255, 212, 82	
+));
+	height: 50vh;
+    border-radius: 20px;
+   box-shadow: 10px 0px 20px rgba(89,83,9,0.6);
+}
+.contact2  img
+{
+	margin-top: 40px;
+	margin-left: 45%;
+    border-radius: 30px;
+}
+.contact2  h2
+{
+	margin-top: 20px;
+	margin-left: 22%;
+	font-family: Comic Sans MS;
+	size: 20PX;
+
+
+}
+.contact2  h1
+{   
+	font-family: 'JetBrains Mono', monospace;
+	margin-top: 20px;
+	margin-left: 25%;
+	size: 20PX;
+
+}
+
+
+
+
+
+@media screen and(max-width: 775px){
+	.contact1{
+		width: 100%
+	}
+	.contact2{
+		width: 100%;
+	}
+}
+.main
+{
+background-color: white;
+box-shadow: 10px 0px 20px rgba(89,83,9,0.6);
+border-radius: 40px;
+
+}
+.products
+{
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 80px;
+	width: 25%;
+	background-color: white;
+	border-radius:20px;
+	   box-shadow: 10px 0px 20px rgba(89,83,9,0.6);
+
+	
+}
+.item img
+{
+    margin-right: 20px;
+	width: 100%;
+	border-radius:30px;
+
+}
+.title
+{    
+	text-align: center;
+	font-size: 30px;
+	font-family: Helvetica Narrow, sans-serif;
+}
+.price
+{
+	text-align: center;
+	font-size: 30px;
+	font-family: Helvetica Narrow, sans-serif;
+}
+button
+{
+	font-size: 20px;
+	padding: 5px;
+	border-radius: 8px;
+	border-style: none;
+		background-image: linear-gradient(to left, rgba(83, 105, 118), rgba(255, 212, 82	
+));
+}
+
